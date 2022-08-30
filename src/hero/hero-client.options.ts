@@ -7,6 +7,6 @@ export const heroClientOptions: GrpcOptions = {
   options: {
     url: 'localhost:3002',
     package: 'hero',
-    protoPath: './hero.proto',
+    protoPath: join(__dirname, 'hero.proto'),
   },
 };
